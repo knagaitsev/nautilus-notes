@@ -1,14 +1,12 @@
 Installation notes:
 
 ```
-sudo apt install build-essential cmake python3-pip xorriso mtools
+sudo apt install build-essential cmake python3-pip xorriso mtools u-boot-tools grub-pc-bin
 
 pip3 install wllvm
 ```
 
-Install qemu from source using the method here:
-
-https://www.qemu.org/download/#source
+Install qemu from source using this method (source: https://www.qemu.org/download/#source):
 
 ```
 git clone https://gitlab.com/qemu-project/qemu.git
